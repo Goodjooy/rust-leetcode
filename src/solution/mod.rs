@@ -11,5 +11,9 @@ mod zigzag_conversion;
 /// -If reversing `x` causes the value to go outside the signed 32-bit  
 /// integer range [-2E31, 2E31 - 1], then return 0.  
 mod reverse_integer;
-
+/// [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+/// 
+/// Implement the `myAtoi(string s)` function,   
+/// which converts a string to a 32-bit signed integer (similar to C/C++'s atoi function).
+mod string_to_integer_atoi;
 pub struct Solution;
