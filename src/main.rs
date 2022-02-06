@@ -6,6 +6,11 @@ mod longest_palindromic_substring;
 /// [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 mod zigzag_conversion;
 
+///[7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)  
+/// - Given a signed `32-bit` integer `x`, return `x` with its digits reversed.  
+/// -If reversing `x` causes the value to go outside the signed 32-bit  
+/// integer range [-2E31, 2E31 - 1], then return 0.  
+mod reverse_integer;
 fn main() {
     println!("Hello, world!");
 }
