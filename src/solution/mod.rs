@@ -16,4 +16,9 @@ mod reverse_integer;
 /// Implement the `myAtoi(string s)` function,   
 /// which converts a string to a 32-bit signed integer (similar to C/C++'s atoi function).
 mod string_to_integer_atoi;
+
+/// [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+/// Given an integer `x`, return `true` if `x` is palindrome integer.
+/// An integer is a ***palindrome*** when it reads the same backward as forward.
+mod palindrome_number;
 pub struct Solution;
