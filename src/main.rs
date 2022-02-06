@@ -3,6 +3,9 @@ mod longest_substring_without_repeating_characters;
 mod median_of_two_sorted_arrays;
 /// [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 mod longest_palindromic_substring;
+/// [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
+mod zigzag_conversion;
+
 fn main() {
     println!("Hello, world!");
 }
