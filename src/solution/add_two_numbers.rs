@@ -1,4 +1,4 @@
-use crate::Solution;
+use super::Solution;
 
 // Definition for singly-linked list.
 #[derive(PartialEq, Eq, Clone, Debug)]

@@ -1,4 +1,4 @@
-use crate::Solution;
+use super::Solution;
 use std::collections::LinkedList;
 
 impl Solution {
@@ -37,7 +37,7 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use crate::Solution;
+    use crate::solution::Solution;
 
     #[test]
     fn test1() {

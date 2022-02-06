@@ -1,6 +1,6 @@
 use std::usize;
 
-use crate::Solution;
+use super::Solution;
 
 struct Term {
     hor: Vec<char>,
@@ -84,7 +84,7 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use crate::Solution;
+    use crate::solution::Solution;
 
     #[test]
     fn test1() {

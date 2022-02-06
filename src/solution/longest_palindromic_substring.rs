@@ -1,4 +1,4 @@
-use crate::Solution;
+use super::Solution;
 
 #[derive(Debug, PartialEq, Eq)]
 enum Center {
@@ -163,10 +163,12 @@ impl Solution {
 
 #[cfg(test)]
 mod test_str {
-    use crate::Solution;
+  
 
+    use crate::solution::Solution;
     #[test]
-    fn test1() {
+
+fn test1() {
         let s = String::from("babad");
         let res = Solution::longest_palindrome(s);
         assert_eq!(res, "bab")

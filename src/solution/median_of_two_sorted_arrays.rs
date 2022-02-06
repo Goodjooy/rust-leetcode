@@ -37,7 +37,7 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use crate::Solution;
+    use crate::solution::Solution;
 
     #[test]
     fn test1() {
