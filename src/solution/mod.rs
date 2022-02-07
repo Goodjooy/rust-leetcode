@@ -37,4 +37,18 @@ mod regular_expression_matching;
 ///**Return** the maximum amount of water a container can store.  
 mod container_with_most_water;
 
+///[12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
+/// 
+/// Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+/// | Symbol | Value |
+/// | :----: | :---: |
+/// | I     | 1      |
+/// | V     | 5     |
+/// | X | 10|
+/// | L | 50 |
+/// | C | 100 |
+/// | D | 500 |
+/// | M | 1000 |
+mod integer_to_roman;
+
 pub struct Solution;
