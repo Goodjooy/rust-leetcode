@@ -50,5 +50,6 @@ mod container_with_most_water;
 /// | D | 500 |
 /// | M | 1000 |
 mod integer_to_roman;
-
+/// [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+mod roman_to_integer;
 pub struct Solution;
