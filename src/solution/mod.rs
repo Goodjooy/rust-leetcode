@@ -21,4 +21,13 @@ mod string_to_integer_atoi;
 /// Given an integer `x`, return `true` if `x` is palindrome integer.
 /// An integer is a ***palindrome*** when it reads the same backward as forward.
 mod palindrome_number;
+
+/// [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+/// Given an input string `s` and a pattern `p`,   
+/// implement regular expression matching with support for '.' and '*'   
+/// where:
+/// * `'.'` Matches any single character.​​​​
+/// * `'*'` Matches zero or more of the preceding element.
+mod regular_expression_matching;
+
 pub struct Solution;
